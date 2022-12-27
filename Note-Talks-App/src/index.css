@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+    background: #0B192E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-app{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.sub-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #64FFDA;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 16px;
+    color: #A7B1D1;
+    max-width: 90%;
+}
+
+.notes-text-field{
+    resize: none;
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    font-size: 18px;
+    background: #162A46;
+    color: white;
+    border: 0.5px solid #A7B1D1;
+    font-weight: 300px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+
+.notes-text-field::placeholder{
+    color: #A7B1D1;
+}
+
+.submit-button{
+    cursor: pointer;
+    background: #0eb28c;
+    border: none;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    height:40px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    float: left;
+    transition: 100ms;
+}
+
+.submit-button:hover{
+    transition: 100ms;
+    background: #03bb90;
+}
+#loading{
+    background:#08644f;
+}
+
+.description-toggle{
+    background: none;
+    color:#A7B1D1;
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    margin-bottom: 0px;
+}
+
+.text-field-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.clear-button{
+    cursor: pointer;
+    background: #1f3655;
+    border: none;
+    color: white;
+    margin-left:10px;
+    width:40px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    float: left;
+    transition: 100ms;
+}
